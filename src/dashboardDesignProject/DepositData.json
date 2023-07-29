@@ -1,0 +1,90 @@
+{
+  "active": [
+    {
+      "property": {
+        "address": {
+          "street": "771 Lost Round",
+          "city": "Sacreamento",
+          "state": "CA"
+        },
+        "imageUrl": "lostround.png"
+      },
+      "moveInDate": "25 february 2020",
+      "rent": 3000.00,
+      "deposit": {
+        "amount": 9000.00,
+        "type": "First, Last & Security"
+      },
+      "status": {
+        "message": "Awaiting Bank Processing",
+        "level": 2
+      }
+    },
+    {
+      "property": {
+        "address": {
+          "street": "771 Lost Round  2",
+          "city": "Sacreamento 2",
+          "state": "CA 2"
+        },
+        "imageUrl": "lostround.png"
+      },
+      "moveInDate": "25 february 2020 2",
+      "rent": 30002.00,
+      "deposit": {
+        "amount": 90002.00,
+        "type": "First, Last & Security 2"
+      },
+      "status": {
+        "message": "Awaiting Bank Processing 2",
+        "level": 3
+      }
+    }
+  ],
+
+  "closed": [
+    {
+      "property": {
+        "address": {
+          "street": "771 Lost Round closed",
+          "city": "Sacreamento closed",
+          "state": "CA closed"
+        },
+        "imageUrl": "lostround.png"
+      },
+      "moveInDate": "25 february 2020 closed",
+      "rent": 3000.00,
+      "deposit": {
+        "amount": 9000.00,
+        "type": "First, Last & Securityclosed"
+      },
+      "status": {
+        "message": "Awaiting Bank Processing closed",
+        "level": 2
+      }
+    },
+    {
+      "property": {
+        "address": {
+          "street": "771 Lost Round  closed 2",
+          "city": "Sacreamento 2",
+          "state": "CA 2"
+        },
+        "imageUrl": "lostround.png"
+      },
+      "moveInDate": "25 february 2020 closed 2",
+      "rent": 30002.00,
+      "deposit": {
+        "amount": 90002.00,
+        "type": "First, Last & Security closed 2"
+      },
+      "status": {
+        "message": "Awaiting Bank Processing  closed 2",
+        "level": 3
+      }
+    }
+  ]
+
+
+
+}

@@ -6,12 +6,18 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { RoomsProvider } from "./context";
 
+import { DashboardApp } from "./App";
+import { ThemeContextProvider } from "./dashboardDesignProject/themeContext";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RoomsProvider>
       <BrowserRouter>
-        <App />
+        {/* <App /> */}
+        <ThemeContextProvider>
+          <DashboardApp />
+        </ThemeContextProvider>
       </BrowserRouter>
     </RoomsProvider>
   </React.StrictMode>
