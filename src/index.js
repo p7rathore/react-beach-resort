@@ -14,10 +14,10 @@ root.render(
   <React.StrictMode>
     <RoomsProvider>
       <BrowserRouter>
-        {/* <App /> */}
-        <ThemeContextProvider>
+        <App />
+        {/* <ThemeContextProvider>
           <DashboardApp />
-        </ThemeContextProvider>
+        </ThemeContextProvider> */}
       </BrowserRouter>
     </RoomsProvider>
   </React.StrictMode>
